@@ -1,0 +1,34 @@
+<html>
+    <head>
+       <title>My Selfie App</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+</head>
+ 
+<body>
+    <div class="container">
+    <center>
+        <a id="link" href="" download="photo.png"></a>
+        <h1>ALphax</h1>
+        <hr>
+        <div class="form-group">
+
+            <label>Your voice output : </label>
+<textarea readonly="true" id="textbox" class="form-control"></textarea>
+        </div>
+
+        <p>Press the Start button</p>
+        
+<button onclick="speechtotext()" class="btn btn-danger">START </button>
+
+   <label id="ANSWER">
+
+       
+   </label>
+   <script src="alphax.js"></script>
+</body>
+</html>
